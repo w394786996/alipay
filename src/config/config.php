@@ -35,8 +35,6 @@ return [
 
     //支付宝公钥,查看地址：https://openhome.alipay.com/platform/keyManage.htm 对应APPID下的支付宝公钥。
     'alipay_public_key' => "",
-
-    //支付时提交方式 true 为表单提交方式成功后跳转到return_url,
-    //false 时为Curl方式 返回支付宝支付页面址址 自己跳转上去 支付成功不会跳转到return_url上， 我也不知道为什么，有人发现可以跳转请告诉 我一下 谢谢
+    
     // email: 394786996@qq.com
 ];
