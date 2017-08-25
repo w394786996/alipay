@@ -21,7 +21,7 @@ class AlipayServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__ . '/../../config/config.php' => config_path('alipay-web.php'),
+            __DIR__ . '/config/config.php' => config_path('alipay.php'),
         ]);
     }
 
@@ -33,7 +33,7 @@ class AlipayServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->singleton('Alipay', function ($app) {
-            return new AlipaySdk($app['config']['alipay-web']);//config
+            return new AlipaySdk($app['config']['alipay']);//config
         });
     }
 
