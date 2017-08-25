@@ -5,6 +5,8 @@
  * @author auto create
  * @since 1.0, 2016-11-09 22:08:22
  */
+namespace Yi210\Alipay\Aop\Request;
+
 class AlipayTradeCloseRequest
 {
 	/** 

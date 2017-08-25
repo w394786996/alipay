@@ -5,6 +5,9 @@
  * @author auto create
  * @since 1.0, 2017-03-23 19:11:54
  */
+
+namespace Yi210\Alipay\Aop\Request;
+
 class AlipayTradeFastpayRefundQueryRequest
 {
 	/** 
