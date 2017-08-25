@@ -22,8 +22,6 @@ php artisan vendor:publish --provider="Yi210\Alipay\AlipayServiceProvider"
 ## 用法
 先将config/alipay.php 中各项配置好
 
-<?php
-
 // 具体方法可查看 AlipaySdk.php
 
 namespace App\Http\Controllers;
